@@ -14,6 +14,8 @@
 		D477BB9720846595009C730C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D477BB9520846595009C730C /* LaunchScreen.storyboard */; };
 		D477BBA220846595009C730C /* SlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477BBA120846595009C730C /* SlideMenuTests.swift */; };
 		D477BBAD20846595009C730C /* SlideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477BBAC20846595009C730C /* SlideMenuUITests.swift */; };
+		D477BBBB20846A2C009C730C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477BBBA20846A2C009C730C /* TableViewCell.swift */; };
+		D477BBBD20846C08009C730C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477BBBC20846C08009C730C /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D477BBA820846595009C730C /* SlideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D477BBAC20846595009C730C /* SlideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuUITests.swift; sourceTree = "<group>"; };
 		D477BBAE20846595009C730C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D477BBBA20846A2C009C730C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D477BBBC20846C08009C730C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		D477BB8020846594009C730C = {
 			isa = PBXGroup;
 			children = (
+				D477BBBC20846C08009C730C /* MenuVC.swift */,
+				D477BBBA20846A2C009C730C /* TableViewCell.swift */,
 				D477BB8B20846595009C730C /* SlideMenu */,
 				D477BBA020846595009C730C /* SlideMenuTests */,
 				D477BBAB20846595009C730C /* SlideMenuUITests */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D477BBBB20846A2C009C730C /* TableViewCell.swift in Sources */,
+				D477BBBD20846C08009C730C /* MenuVC.swift in Sources */,
 				D477BB8F20846595009C730C /* ViewController.swift in Sources */,
 				D477BB8D20846595009C730C /* AppDelegate.swift in Sources */,
 			);
